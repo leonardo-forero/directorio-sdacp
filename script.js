@@ -76,7 +76,7 @@ botonConsultar.addEventListener("click", () => {
       card.className = "tarjeta-contacto";
       card.innerHTML = `
         <p><strong>👤 Nombre:</strong> ${row["Nombre completo"]}</p>
-        <p><strong>📞 Teléfono:</strong> ${row["Teléfono"]}</p>
+        <p><strong>📱 Teléfono:</strong> ${row["Teléfono"]}</p>
         <p><strong>📧 Email:</strong> <a href="mailto:${row["Email"]}">${row["Email"]}</a></p>
         <hr>
       `;
