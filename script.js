@@ -1,4 +1,4 @@
-const URL = "https://v1.nocodeapi.com/leonhernandez/google_sheets/yirCRecUeXIDDVTj"; // endpoint JSON
+const URL = "https://v1.nocodeapi.com/leonhernandez/google_sheets/yirCRecUeXIDDVTj?tabId=Activos"; // endpoint JSON
 
 
 const consejoSelect = document.getElementById("consejo");
