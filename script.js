@@ -8,9 +8,7 @@ const botonConsultar = document.getElementById("consultar");
 
 fetch(URL)
   .then((response) => response.json())
-  .then((data) => {
-    const rows = data.data;
-
+  .then((rows) => {
     const consejos = [...new Set(rows.map(row => row.Consejo).filter(Boolean))];
     const sectores = [...new Set(rows.map(row => row.Sector).filter(Boolean))];
 
