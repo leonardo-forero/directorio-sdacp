@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #6f4c9c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #ffb71b;
+  margin: 0.5em 0;
+  font-size: 1.8em;
+}
+
+.descripcion {
+  margin: 0 auto 1em;
+  max-width: 600px;
+  font-size: 1em;
+}
+
+.indicaciones {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 10px;
+  max-width: 600px;
+  font-size: 0.95em;
+}
+
+.filtros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+select, button {
+  padding: 0.7em;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  max-width: 300px;
+  width: 80%;
+}
+
+button {
+  background-color: #ffb71b;
+  color: #6f4c9c;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e2a41d;
+}
+
+.tarjeta-contacto {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.tarjeta-contacto p {
+  margin: 0.3em 0;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+.btn-regresar {
+  display: inline-block;
+  background-color: #ffb71b;
+  color: #6f4c9c;
+  padding: 0.7em 1.2em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-regresar:hover {
+  background-color: #e2a41d;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .descripcion, .indicaciones, .tarjeta-contacto {
+    padding: 1em;
+    font-size: 0.95em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  select, button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Directorio de Consejer@s del SDACP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="sistema.png" alt="Logo SDACP" class="logo" />
+    <h1>Directorio de Consejer@s del SDACP</h1>
+    <p class="descripcion">
+      Este directorio busca facilitar la interconexión entre consejeras y consejeros del Sistema Distrital de Arte, Cultura y Patrimonio (SDACP),
+      promoviendo el trabajo en red y el fortalecimiento colectivo de los consejos.
+    </p>
+  </header>
+
+  <section class="indicaciones">
+    <p>🧭 Selecciona primero el <strong>consejo</strong> y luego el <strong>sector</strong>. Haz clic en <strong>"Consultar"</strong> para ver los datos de contacto.</p>
+  </section>
+
+  <section class="filtros">
+    <select id="consejo">
+      <option value="">Selecciona un consejo</option>
+    </select>
+
+    <select id="sector">
+      <option value="">Selecciona un sector</option>
+    </select>
+
+    <button id="consultar">Consultar</button>
+  </section>
+
+  <section id="resultados" class="resultados"></section>
+
+  <footer>
+    <a href="https://radarcultural.scrd.gov.co" class="btn-regresar">Regresar a Radar Cultural</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
