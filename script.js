@@ -1,4 +1,4 @@
-const URL = "https://script.google.com/macros/library/d/1wOcYiW8blOTydOJw9p_1HCJlWlQTpb37SHuJOSbz18hb08CLe5SvKXBa/1"; // API
+const URL = "https://script.google.com/macros/s/AKfycbzfCr2MxsGNR7QpmErNCHd97SfrDs337TILCgvnjwLkGAkVA54TxNFCFZowSzoktNAz0w/exec"; // API
 
 
 const consejoSelect = document.getElementById("consejo");
